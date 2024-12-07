@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: PressBook 2.0.9\n"
+"Project-Id-Version: PressBook 2.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pressbook\n"
-"POT-Creation-Date: 2024-10-15T06:40:25+00:00\n"
-"PO-Revision-Date: 2024-10-15 12:11+0530\n"
+"POT-Creation-Date: 2024-12-07T13:31:27+00:00\n"
+"PO-Revision-Date: 2024-12-07 19:01+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -17,14 +17,17 @@ msgstr ""
 "X-Domain: pressbook\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "PressBook"
 msgstr ""
 
 #. Theme URI of the theme
+#: style.css
 msgid "https://scriptstown.com/wordpress-themes/pressbook/"
 msgstr ""
 
 #. Description of the theme
+#: style.css
 msgid ""
 "PressBook is a multi-purpose WordPress theme suitable for blogs, news, "
 "marketing, and educational websites. The theme offers a fully responsive, "
@@ -48,10 +51,12 @@ msgid ""
 msgstr ""
 
 #. Author of the theme
+#: style.css
 msgid "ScriptsTown"
 msgstr ""
 
 #. Author URI of the theme
+#: style.css
 msgid "https://scriptstown.com/"
 msgstr ""
 

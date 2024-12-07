@@ -25,6 +25,9 @@ li#accordion-section-pressbook_premium.control-section-pressbook-button {
 	border-top: 1px solid #5e82ed;
 	border-bottom: 1px solid #5e82ed;
 }
+li#accordion-section-pressbook_premium .accordion-section-title:after {
+	content: none;
+}
 .customize-control-pressbook-addon {
 	margin-top: 10px;
 }

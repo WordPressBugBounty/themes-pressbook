@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.3
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 2.0.9
+Stable tag: 2.1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.1.0 =
+* Added: New SVG social icons.
+* Tested compatibility with PHP 8.4.
 
 = 2.0.9 =
 * Improvement: Minor CSS fixes.
