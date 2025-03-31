@@ -3,9 +3,9 @@ Contributors: scriptstown
 Tags: blog, education, news, one-column, two-columns, three-columns, left-sidebar, right-sidebar, block-styles, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks
 Donate link: https://scriptstown.com/
 Requires at least: 5.3
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.1.2 =
+* Tested up to 6.8.
 
 = 2.1.1 =
 * Improvement: SVG social icons.
@@ -408,7 +411,7 @@ PressBook bundles the following third-party resources:
 
 * Social Icons
 * License: GNU General Public License v2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 * Source: WordPress Social Link Block (See wp-includes\blocks\social-link.php)
 
 Code from Twenty Nineteen, Copyright WordPress.org
