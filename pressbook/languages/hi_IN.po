@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: PressBook 2.1.2\n"
+"Project-Id-Version: PressBook 2.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pressbook\n"
-"POT-Creation-Date: 2025-03-31T18:13:51+00:00\n"
-"PO-Revision-Date: 2025-03-31 23:44+0530\n"
+"POT-Creation-Date: 2025-05-19T03:26:42+00:00\n"
+"PO-Revision-Date: 2025-05-19 08:56+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Domain: pressbook\n"
 
 #. Theme Name of the theme
@@ -155,126 +155,144 @@ msgid ""
 "<br>The selected block content will appear on the block section."
 msgstr ""
 
-#: inc/core/Options/Blog.php:51
+#: inc/core/Options/Blog.php:55
 msgid "Blog Options"
 msgstr ""
 
-#: inc/core/Options/Blog.php:52
+#: inc/core/Options/Blog.php:56
 msgid "You can customize the blog options in here."
 msgstr ""
 
-#: inc/core/Options/Blog.php:79
+#: inc/core/Options/Blog.php:83
 msgid "Thumbnail-Content - Rows"
 msgstr ""
 
-#: inc/core/Options/Blog.php:80
+#: inc/core/Options/Blog.php:84
 msgid "Thumbnail-Content - Columns (Contain)"
 msgstr ""
 
-#: inc/core/Options/Blog.php:81
+#: inc/core/Options/Blog.php:85
 msgid "Thumbnail-Content - Columns (Cover)"
 msgstr ""
 
-#: inc/core/Options/Blog.php:83
+#: inc/core/Options/Blog.php:87
 msgid "Blog Archive Post Layout (Large-Screen Devices)"
 msgstr ""
 
-#: inc/core/Options/Blog.php:84
+#: inc/core/Options/Blog.php:88
 msgid ""
 "Select the layout for the blog post in archive pages. Default: Thumbnail-"
 "Content - Columns (Cover)"
 msgstr ""
 
-#: inc/core/Options/Blog.php:125
+#: inc/core/Options/Blog.php:129
 msgid "Full text"
 msgstr ""
 
-#: inc/core/Options/Blog.php:126
+#: inc/core/Options/Blog.php:130
 msgid "Summary"
 msgstr ""
 
-#: inc/core/Options/Blog.php:128
+#: inc/core/Options/Blog.php:132
 msgid "Blog Archive Content"
 msgstr ""
 
-#: inc/core/Options/Blog.php:129
+#: inc/core/Options/Blog.php:133
 msgid "Select the content to show in the blog archive pages. Default: Summary"
 msgstr ""
 
-#: inc/core/Options/Blog.php:170
+#: inc/core/Options/Blog.php:174
 msgid "Show Archive Page Title"
 msgstr ""
 
-#: inc/core/Options/Blog.php:171
+#: inc/core/Options/Blog.php:175
 msgid ""
 "In archive pages, you can show the archive title and archive description. "
 "This is applicable to any archive pages like tag, category, etc."
 msgstr ""
 
-#: inc/core/Options/Blog.php:212
+#: inc/core/Options/Blog.php:216
 msgid "Post Meta: Hide All"
 msgstr ""
 
-#: inc/core/Options/Blog.php:213
+#: inc/core/Options/Blog.php:217
 msgid ""
 "Hide all the post meta data including date, author, number of comments, etc."
 msgstr ""
 
-#: inc/core/Options/Blog.php:239
+#: inc/core/Options/Blog.php:243
 msgid "Post Meta: Hide Date"
 msgstr ""
 
-#: inc/core/Options/Blog.php:240
+#: inc/core/Options/Blog.php:244
 msgid ""
 "Hide only the post date. Checking the \"Post Meta: Hide All\" option will "
 "override this option."
 msgstr ""
 
-#: inc/core/Options/Blog.php:266
+#: inc/core/Options/Blog.php:270
 msgid "Post Meta: Hide Author"
 msgstr ""
 
-#: inc/core/Options/Blog.php:267
+#: inc/core/Options/Blog.php:271
 msgid ""
 "Hide only the post author. Checking the \"Post Meta: Hide All\" option will "
 "override this option."
 msgstr ""
 
-#: inc/core/Options/Blog.php:293
+#: inc/core/Options/Blog.php:297
 msgid "Post: Hide Categories"
 msgstr ""
 
-#: inc/core/Options/Blog.php:294
+#: inc/core/Options/Blog.php:298
 msgid "Hide the post categories."
 msgstr ""
 
-#: inc/core/Options/Blog.php:320
+#: inc/core/Options/Blog.php:324
 msgid "Post: Hide Tags"
 msgstr ""
 
-#: inc/core/Options/Blog.php:321
+#: inc/core/Options/Blog.php:325
 msgid "Hide the post tags."
 msgstr ""
 
-#: inc/core/Options/Blog.php:384
+#: inc/core/Options/Blog.php:388
+msgid "Shift Post Meta Before Featured Image"
+msgstr ""
+
+#: inc/core/Options/Blog.php:389
+msgid ""
+"Shift meta details and post title for a single post before the featured "
+"image."
+msgstr ""
+
+#: inc/core/Options/Blog.php:430
+msgid "Hide Featured Image in Single Post"
+msgstr ""
+
+#: inc/core/Options/Blog.php:431
+msgid "Hide featured image in a single post view."
+msgstr ""
+
+#: inc/core/Options/Blog.php:472
 msgid "Show Author's Profile Picture"
 msgstr ""
 
-#: inc/core/Options/Blog.php:385
+#: inc/core/Options/Blog.php:473
 msgid "Replace SVG icon with profile picture on gravatar for post authors."
 msgstr ""
 
-#: inc/core/Options/Blog.php:425
+#: inc/core/Options/Blog.php:513
 msgid "Featured (Sticky Post) Label"
 msgstr ""
 
-#: inc/core/Options/Blog.php:426
+#: inc/core/Options/Blog.php:514
 msgid ""
 "You can change the \"Featured\" label for the sticky posts. Leave it empty "
 "for default text."
 msgstr ""
 
-#: inc/core/Options/Blog.php:458
+#: inc/core/Options/Blog.php:546
 msgctxt "Label for sticky posts"
 msgid "Featured"
 msgstr ""
@@ -1791,7 +1809,7 @@ msgid ""
 msgstr ""
 
 #: template-parts/content-page-no-title.php:21
-#: template-parts/content-page.php:25 template-parts/content-single.php:39
+#: template-parts/content-page.php:25 template-parts/content-single.php:51
 #: template-parts/content.php:59
 msgid "Pages:"
 msgstr ""

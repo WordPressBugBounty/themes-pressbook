@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.3
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.1.3 =
+* Added: Option to shift meta details and post title for a post.
+* Added: Option to hide featured image in single post.
+* Tested up to 6.8.1.
 
 = 2.1.2 =
 * Tested up to 6.8.

@@ -7,10 +7,16 @@
  * @package PressBook
  */
 
+$pressbook_meta_before   = PressBook\Options\Blog::get_post_meta_before();
+$pressbook_hide_post_img = PressBook\Options\Blog::get_hide_post_image();
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'pb-article pb-singular' ); ?>>
-	<?php PressBook\TemplateTags::post_thumbnail(); ?>
+	<?php
+	if ( ! $pressbook_hide_post_img && ! $pressbook_meta_before ) {
+		PressBook\TemplateTags::post_thumbnail();
+	}
+	?>
 
 	<header class="entry-header">
 	<?php
@@ -29,6 +35,12 @@
 	}
 	?>
 	</header><!-- .entry-header -->
+
+	<?php
+	if ( ! $pressbook_hide_post_img && $pressbook_meta_before ) {
+		PressBook\TemplateTags::post_thumbnail();
+	}
+	?>
 
 	<div class="pb-content">
 		<div class="entry-content">

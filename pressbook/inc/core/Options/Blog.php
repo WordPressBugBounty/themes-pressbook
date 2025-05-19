@@ -34,6 +34,10 @@ class Blog extends Options {
 		$this->set_hide_post_meta_cat( $wp_customize );
 		$this->set_hide_post_meta_tag( $wp_customize );
 
+		$this->set_post_meta_before( $wp_customize );
+
+		$this->set_hide_post_image( $wp_customize );
+
 		$this->set_meta_author_avatar( $wp_customize );
 
 		$this->set_featured_label( $wp_customize );
@@ -358,6 +362,90 @@ class Blog extends Options {
 		}
 
 		return $default;
+	}
+
+	/**
+	 * Add setting: Post Meta Before.
+	 *
+	 * @param WP_Customize_Manager $wp_customize Theme Customizer object.
+	 */
+	public function set_post_meta_before( $wp_customize ) {
+		$wp_customize->add_setting(
+			'set_post_meta_before',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => self::get_post_meta_before( true ),
+				'transport'         => 'refresh',
+				'sanitize_callback' => array( Sanitizer::class, 'sanitize_checkbox' ),
+			)
+		);
+
+		$wp_customize->add_control(
+			'set_post_meta_before',
+			array(
+				'section'     => 'sec_blog',
+				'type'        => 'checkbox',
+				'label'       => esc_html__( 'Shift Post Meta Before Featured Image', 'pressbook' ),
+				'description' => esc_html__( 'Shift meta details and post title for a single post before the featured image.', 'pressbook' ),
+			)
+		);
+	}
+
+	/**
+	 * Get setting: Post Meta Before.
+	 *
+	 * @param bool $get_default Get default.
+	 * @return bool
+	 */
+	public static function get_post_meta_before( $get_default = false ) {
+		$default = apply_filters( 'pressbook_default_post_meta_before', false );
+		if ( $get_default ) {
+			return $default;
+		}
+
+		return get_theme_mod( 'set_post_meta_before', $default );
+	}
+
+	/**
+	 * Add setting: Hide Featured Image in Single Post.
+	 *
+	 * @param WP_Customize_Manager $wp_customize Theme Customizer object.
+	 */
+	public function set_hide_post_image( $wp_customize ) {
+		$wp_customize->add_setting(
+			'set_hide_post_image',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => self::get_hide_post_image( true ),
+				'transport'         => 'refresh',
+				'sanitize_callback' => array( Sanitizer::class, 'sanitize_checkbox' ),
+			)
+		);
+
+		$wp_customize->add_control(
+			'set_hide_post_image',
+			array(
+				'section'     => 'sec_blog',
+				'type'        => 'checkbox',
+				'label'       => esc_html__( 'Hide Featured Image in Single Post', 'pressbook' ),
+				'description' => esc_html__( 'Hide featured image in a single post view.', 'pressbook' ),
+			)
+		);
+	}
+
+	/**
+	 * Get setting: Hide Featured Image in Single Post.
+	 *
+	 * @param bool $get_default Get default.
+	 * @return bool
+	 */
+	public static function get_hide_post_image( $get_default = false ) {
+		$default = apply_filters( 'pressbook_default_hide_post_image', false );
+		if ( $get_default ) {
+			return $default;
+		}
+
+		return get_theme_mod( 'set_hide_post_image', $default );
 	}
 
 	/**
