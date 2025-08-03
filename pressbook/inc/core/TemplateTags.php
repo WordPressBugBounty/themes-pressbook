@@ -32,7 +32,7 @@ class TemplateTags {
 			<?php
 		} else {
 			?>
-			<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+			<a class="post-thumbnail" href="<?php the_permalink(); ?>" tabindex="-1">
 			<?php
 			the_post_thumbnail(
 				'post-thumbnail',
