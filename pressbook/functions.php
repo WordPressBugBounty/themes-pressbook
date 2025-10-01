@@ -9,7 +9,7 @@
 
 defined( 'ABSPATH' ) || die();
 
-define( 'PRESSBOOK_VERSION', '2.1.4' );
+define( 'PRESSBOOK_VERSION', '2.1.5' );
 
 // This theme requires WordPress 5.3 or later.
 if ( version_compare( $GLOBALS['wp_version'], '5.3', '<' ) ) {

@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: PressBook 2.1.4\n"
+"Project-Id-Version: PressBook 2.1.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pressbook\n"
-"POT-Creation-Date: 2025-08-02T17:52:07+00:00\n"
-"PO-Revision-Date: 2025-08-02 23:22+0530\n"
+"POT-Creation-Date: 2025-10-01T22:06:09+00:00\n"
+"PO-Revision-Date: 2025-10-02 03:36+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 "X-Domain: pressbook\n"
 
 #. Theme Name of the theme
@@ -927,8 +927,8 @@ msgstr ""
 
 #: inc/core/Options/Upsell.php:125
 msgid ""
-"More color options for primary navigation are available in our premium "
-"version."
+"More color options, menu alignment (center, left, right) for primary "
+"navigation are available in our premium version."
 msgstr ""
 
 #: inc/core/Options/Upsell.php:141

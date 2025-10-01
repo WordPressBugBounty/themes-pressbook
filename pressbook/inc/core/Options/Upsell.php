@@ -122,7 +122,7 @@ class Upsell extends Options {
 					'section'     => 'sec_primary_navbar',
 					'type'        => 'pressbook-addon',
 					'label'       => esc_html__( 'Learn More', 'pressbook' ),
-					'description' => esc_html__( 'More color options for primary navigation are available in our premium version.', 'pressbook' ),
+					'description' => esc_html__( 'More color options, menu alignment (center, left, right) for primary navigation are available in our premium version.', 'pressbook' ),
 					'url'         => ( esc_url( Helpers::get_upsell_detail_url() ) . '#description' ),
 					'priority'    => 999,
 					'settings'    => ( isset( $wp_customize->selective_refresh ) ) ? array() : 'blogname',
