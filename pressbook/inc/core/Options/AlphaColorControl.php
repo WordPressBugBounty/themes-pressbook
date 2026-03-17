@@ -59,6 +59,7 @@ if ( class_exists( '\WP_Customize_Control' ) ) {
 		 */
 		public function enqueue() {
 			wp_enqueue_style( 'alpha-color-picker', get_theme_file_uri( 'inc/alpha-color-picker.css' ), array( 'wp-color-picker' ), PRESSBOOK_VERSION );
+			wp_style_add_data( 'alpha-color-picker', 'rtl', 'replace' );
 
 			wp_enqueue_script( 'alpha-color-picker', get_theme_file_uri( 'js/alpha-color-picker.js' ), array( 'jquery', 'wp-color-picker' ), PRESSBOOK_VERSION, true );
 		}

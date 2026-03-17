@@ -28,6 +28,9 @@ class Scripts implements Serviceable {
 		// Enqueue fonts.
 		wp_enqueue_style( 'pressbook-fonts', static::fonts_url(), array(), null ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
 
+		// Block library theme.
+		wp_enqueue_style( 'wp-block-library-theme' );
+
 		// Theme stylesheet.
 		wp_enqueue_style( 'pressbook-style', get_template_directory_uri() . '/style.min.css', array(), PRESSBOOK_VERSION );
 		wp_style_add_data( 'pressbook-style', 'rtl', 'replace' );

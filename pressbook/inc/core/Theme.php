@@ -25,6 +25,7 @@ class Theme {
 				Enhance::class,
 				Scripts::class,
 				IconsHelper::class,
+				EditorStyle::class,
 				Editor::class,
 				PageSettings::class,
 				WooCommerce::class,

@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: PressBook 2.1.6\n"
+"Project-Id-Version: PressBook 2.1.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pressbook\n"
-"POT-Creation-Date: 2025-11-08T19:06:04+00:00\n"
-"PO-Revision-Date: 2025-11-09 00:36+0530\n"
+"POT-Creation-Date: 2026-03-17T22:11:22+00:00\n"
+"PO-Revision-Date: 2026-03-18 03:41+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 "X-Domain: pressbook\n"
 
 #. Theme Name of the theme
@@ -62,6 +62,7 @@ msgstr ""
 
 #. translators: 1: number of comments, 2: post title
 #: comments.php:35
+#, php-format
 msgctxt "comments title"
 msgid ""
 "Comment <span class=\"comments-title-count\">(%1$s)</span><span "
@@ -86,19 +87,20 @@ msgstr ""
 
 #. translators: %s: WordPress Version.
 #: inc/back-compat.php:28 inc/back-compat.php:43 inc/back-compat.php:64
+#, php-format
 msgid ""
 "This theme requires WordPress 5.3 or newer. You are running version %s. "
 "Please upgrade."
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Inter, translate this to 'off'. Do not translate into your own language.
-#: inc/core/Editor.php:107
+#: inc/core/Editor.php:101
 msgctxt "Inter font (in the editor): on or off"
 msgid "on"
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
-#: inc/core/Editor.php:113
+#: inc/core/Editor.php:107
 msgctxt "Lato font (in the editor): on or off"
 msgid "on"
 msgstr ""
@@ -109,6 +111,7 @@ msgstr ""
 
 #. translators: 1: "Read More" text, 2: Name of current post. Only visible to screen readers
 #: inc/core/Enhance.php:108
+#, php-format
 msgctxt "excerpt more"
 msgid ""
 "%1$s<span class=\"screen-reader-text\"> &ldquo;%2$s&rdquo;</span> &raquo;"
@@ -116,6 +119,7 @@ msgstr ""
 
 #. translators: 1: "Read More" text, 2: Name of current post. Only visible to screen readers
 #: inc/core/Enhance.php:142
+#, php-format
 msgctxt "content more"
 msgid ""
 "%1$s<span class=\"screen-reader-text\"> &ldquo;%2$s&rdquo;</span> &raquo;"
@@ -147,6 +151,7 @@ msgstr ""
 
 #. translators: %s: URL to the pattern-blocks admin page.
 #: inc/core/Options/BlockSection.php:46
+#, php-format
 msgid ""
 "This is the content of the block section. You can create or edit the block "
 "section in the <a href=\"%s\" target=\"_blank\">Pattern Blocks Manager "
@@ -405,6 +410,7 @@ msgstr ""
 
 #. translators: 1: current year, 2: blog name
 #: inc/core/Options/Footer.php:94
+#, php-format
 msgid "Copyright &copy; %1$s %2$s."
 msgstr ""
 
@@ -438,6 +444,7 @@ msgstr ""
 #: inc/core/Options/FooterBlock.php:126 inc/core/Options/FooterBlock.php:152
 #: inc/core/Options/FooterBlock.php:178 inc/core/Options/FooterBlock.php:204
 #: inc/core/Options/FooterBlock.php:230 inc/core/Options/FooterBlock.php:256
+#, php-format
 msgid "Footer Block %s"
 msgstr ""
 
@@ -510,6 +517,7 @@ msgstr ""
 #: inc/core/Options/HeaderBlock.php:126 inc/core/Options/HeaderBlock.php:152
 #: inc/core/Options/HeaderBlock.php:178 inc/core/Options/HeaderBlock.php:204
 #: inc/core/Options/HeaderBlock.php:230 inc/core/Options/HeaderBlock.php:256
+#, php-format
 msgid "Header Block %s"
 msgstr ""
 
@@ -854,6 +862,7 @@ msgstr ""
 
 #. translators: %s: URL to the pattern-blocks admin page.
 #: inc/core/Options/TopBanner.php:423
+#, php-format
 msgid ""
 "You can use this to replace top banner image and use any custom block (For "
 "example: \"Custom HTML block\"). This is the content of the block section. "
@@ -1002,25 +1011,27 @@ msgid "Force Transparent Background"
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Inter, translate this to 'off'. Do not translate into your own language.
-#: inc/core/Scripts.php:72
+#: inc/core/Scripts.php:75
 msgctxt "Inter font: on or off"
 msgid "on"
 msgstr ""
 
 #. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
-#: inc/core/Scripts.php:78
+#: inc/core/Scripts.php:81
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr ""
 
 #. translators: %s: post date
 #: inc/core/TemplateTags.php:65
+#, php-format
 msgctxt "post date"
 msgid "<span class=\"screen-reader-text\">Posted on </span>%s"
 msgstr ""
 
 #. translators: %s: post author
 #: inc/core/TemplateTags.php:104
+#, php-format
 msgctxt "post author"
 msgid "<span class=\"screen-reader-text\">By </span>%s"
 msgstr ""
@@ -1045,6 +1056,7 @@ msgstr ""
 
 #. translators: %s: footer widgets area number
 #: inc/core/Widget.php:61
+#, php-format
 msgid "Footer Widgets Area %s"
 msgstr ""
 
@@ -1062,11 +1074,13 @@ msgstr ""
 
 #. translators: %s: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:330
+#, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #. translators: %s: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:332
+#, php-format
 msgid "Updating Plugin: %s"
 msgstr ""
 
@@ -1076,6 +1090,7 @@ msgstr ""
 
 #. translators: 1: plugin name(s).
 #: inc/libs/class-tgm-plugin-activation.php:335
+#, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
@@ -1083,6 +1098,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/libs/class-tgm-plugin-activation.php:341
+#, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
@@ -1090,6 +1106,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/libs/class-tgm-plugin-activation.php:347
+#, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -1101,6 +1118,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/libs/class-tgm-plugin-activation.php:353
+#, php-format
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
@@ -1108,6 +1126,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/libs/class-tgm-plugin-activation.php:359
+#, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -1115,6 +1134,7 @@ msgstr[1] ""
 
 #. translators: 1: plugin name(s).
 #: inc/libs/class-tgm-plugin-activation.php:365
+#, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
@@ -1163,11 +1183,13 @@ msgstr[1] ""
 
 #. translators: 1: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:390
+#, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:392
+#, php-format
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
 "Please update the plugin."
@@ -1175,6 +1197,7 @@ msgstr ""
 
 #. translators: 1: dashboard link.
 #: inc/libs/class-tgm-plugin-activation.php:394
+#, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
@@ -1227,6 +1250,7 @@ msgstr ""
 
 #. translators: %s: version number
 #: inc/libs/class-tgm-plugin-activation.php:1982
+#, php-format
 msgid "TGMPA v%s"
 msgstr ""
 
@@ -1276,12 +1300,14 @@ msgstr ""
 
 #. translators: 1: install status, 2: update status
 #: inc/libs/class-tgm-plugin-activation.php:2342
+#, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
 #. translators: 1: number of plugins.
 #: inc/libs/class-tgm-plugin-activation.php:2388
+#, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -1290,6 +1316,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/libs/class-tgm-plugin-activation.php:2392
+#, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1297,6 +1324,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/libs/class-tgm-plugin-activation.php:2396
+#, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1304,6 +1332,7 @@ msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: inc/libs/class-tgm-plugin-activation.php:2400
+#, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
 msgstr[0] ""
@@ -1352,16 +1381,19 @@ msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/libs/class-tgm-plugin-activation.php:2603
+#, php-format
 msgid "Install %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/libs/class-tgm-plugin-activation.php:2608
+#, php-format
 msgid "Update %2$s"
 msgstr ""
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/libs/class-tgm-plugin-activation.php:2614
+#, php-format
 msgid "Activate %2$s"
 msgstr ""
 
@@ -1411,16 +1443,19 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/libs/class-tgm-plugin-activation.php:3498
+#, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #. translators: 1: plugin name, 2: error message.
 #: inc/libs/class-tgm-plugin-activation.php:3503
+#, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
 #. translators: 1: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:3505
+#, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
@@ -1433,6 +1468,7 @@ msgstr ""
 #. translators: 1: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:3510
 #: inc/libs/class-tgm-plugin-activation.php:3512
+#, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
@@ -1456,6 +1492,7 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/libs/class-tgm-plugin-activation.php:3515
+#, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -1468,6 +1505,7 @@ msgstr ""
 #. translators: 1: plugin name.
 #: inc/libs/class-tgm-plugin-activation.php:3520
 #: inc/libs/class-tgm-plugin-activation.php:3522
+#, php-format
 msgid "%1$s installed successfully."
 msgstr ""
 
@@ -1477,6 +1515,7 @@ msgstr ""
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/libs/class-tgm-plugin-activation.php:3525
+#, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
@@ -1492,6 +1531,7 @@ msgstr ""
 
 #. translators: 1: theme name, 2: theme version number
 #: inc/welcome-page.php:38
+#, php-format
 msgctxt "menu page heading"
 msgid "%1$s <span>Version %2$s</span>"
 msgstr ""
@@ -1742,19 +1782,22 @@ msgid ""
 msgstr ""
 
 #. translators: 1: theme name, 2: welcome page link.
-#: inc/welcome-page.php:236
+#: inc/welcome-page.php:237
+#, php-format
 msgid ""
 "Welcome! Thank you for choosing %1$s theme. To get started, visit our <a "
 "href=\"%2$s\">welcome page</a>."
 msgstr ""
 
 #. translators: %s: theme name
-#: inc/welcome-page.php:249
+#: inc/welcome-page.php:250
+#, php-format
 msgid "Get started with %s"
 msgstr ""
 
 #. translators: %s: search query
 #: index.php:45
+#, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -1792,6 +1835,7 @@ msgstr ""
 
 #. translators: 1: link to WP admin new post page
 #: template-parts/content-none.php:24
+#, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
@@ -1816,12 +1860,14 @@ msgstr ""
 
 #. translators: %s: theme name with URL
 #: template-parts/footer/copyright-text.php:26
+#, php-format
 msgctxt "footer credit"
 msgid "Powered by %s"
 msgstr ""
 
 #. translators: %s: theme name
 #: template-parts/footer/copyright-text.php:29
+#, php-format
 msgctxt "footer credit"
 msgid "%s WordPress theme"
 msgstr ""

@@ -217,6 +217,7 @@ if ( ! function_exists( 'pressbook_options_styles' ) ) {
 	 */
 	function pressbook_options_styles() {
 		wp_enqueue_style( 'pressbook-options', get_template_directory_uri() . '/inc/theme-page.css', array(), PRESSBOOK_VERSION );
+		wp_style_add_data( 'pressbook-options', 'rtl', 'replace' );
 	}
 }
 

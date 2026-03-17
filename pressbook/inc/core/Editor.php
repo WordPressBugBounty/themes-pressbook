@@ -7,9 +7,6 @@
 
 namespace PressBook;
 
-use PressBook\Options\Content;
-use PressBook\Options\Sanitizer;
-
 /**
  * Editor setup.
  */
@@ -31,9 +28,6 @@ class Editor implements Serviceable {
 	 * Support editor styles.
 	 */
 	public function support_editor_styles() {
-		// Add support for editor styles.
-		add_theme_support( 'editor-styles' );
-
 		// Enqueue editor styles.
 		add_editor_style( 'editor-style.css' );
 	}

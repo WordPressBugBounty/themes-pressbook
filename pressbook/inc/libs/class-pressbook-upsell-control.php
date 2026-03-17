@@ -45,6 +45,7 @@ if ( class_exists( 'WP_Customize_Control' ) && ! class_exists( 'PressBook_Upsell
 		 */
 		public function enqueue() {
 			wp_enqueue_style( 'pressbook-customize-section-button', get_theme_file_uri( 'inc/customize-controls.css' ), array(), PRESSBOOK_VERSION );
+			wp_style_add_data( 'pressbook-customize-section-button', 'rtl', 'replace' );
 		}
 
 		/**

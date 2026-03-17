@@ -42,7 +42,7 @@
 }
 
 .pressbook-panel--highlight {
-	border-left: 3px solid var(--wp-admin-theme-color, #3858e9);
+	border-right: 3px solid var(--wp-admin-theme-color, #3858e9);
 }
 
 .pressbook-panel--highlight .button-primary {
@@ -65,19 +65,19 @@
 @media screen and (min-width: 688px) {
 	.pressbook-panel-actions {
 		margin-top: 0;
-		margin-left: 15px;
+		margin-right: 15px;
 	}
 }
 
 .pressbook-panel .pressbook-panel-actions a {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-right: 7px;
+	margin-left: 7px;
 }
 
 @media screen and (min-width: 688px) {
 	.pressbook-panel .pressbook-panel-actions a {
-		margin-right: 0;
+		margin-left: 0;
 	}
 }
 
@@ -106,7 +106,7 @@
 	line-height: 1.55;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-right: 2rem;
+	margin-left: 2rem;
 }
 
 .pressbook-check-list li {
@@ -119,12 +119,12 @@
 .pressbook-check-list li::before {
 	content: '';
 	display: inline-block;
-	margin-right: 12px;
-	transform: rotate(45deg);
+	margin-left: 12px;
+	transform: rotate(-45deg);
 	height: .63em;
 	width: .3em;
 	border-bottom: .25em solid #b4b9be;
-	border-right: .25em solid #b4b9be;
+	border-left: .25em solid #b4b9be;
 }
 
 .rtl .pressbook-check-list li::before {
@@ -139,5 +139,5 @@
 }
 
 .pressbook-title {
-	margin-right: 12px;
+	margin-left: 12px;
 }

@@ -15,7 +15,7 @@
 }
 
 .customize-control-alpha-color .wp-picker-input-wrap input[type="text"].wp-color-picker.alpha-color-control {
-	float: left;
+	float: right;
 	width: 195px;
 }
 
@@ -29,8 +29,8 @@
 }
 
 .customize-control-alpha-color .wp-picker-input-wrap .button {
-	margin-left: 0;
-	float: right;
+	margin-right: 0;
+	float: left;
 }
 
 .wp-picker-container .wp-picker-open~.wp-picker-holder .alpha-color-picker-container {
@@ -86,7 +86,7 @@
 	font-size: 0;
 	padding: 0;
 	line-height: 27px;
-	margin-left: -14px;
+	margin-right: -14px;
 }
 
 .alpha-color-picker-container .ui-slider-handle.show-opacity {
@@ -98,12 +98,12 @@
 	height: 24px;
 	display: block;
 	position: absolute;
-	left: 10px;
+	right: 10px;
 }
 
 .alpha-color-picker-container .max-click-zone {
-	right: 10px;
-	left: auto;
+	left: 10px;
+	right: auto;
 }
 
 .alpha-color-picker-container .transparency {
