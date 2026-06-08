@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.3
 Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 2.1.8
+Stable tag: 2.1.9
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.1.9 =
+* Tested compatibility with PHP 8.5.
+* Readme updated.
 
 = 2.1.8 =
 * Improvement: Welcome notice.
@@ -460,7 +464,7 @@ Included as part of the following classes and functions:
 
 * SVG UI Icons
 * License: SIL Open Font License (OFL)
-* Source: https://www.iconfinder.com/iconsets/font-awesome
+* Source: Font Awesome 4.7, https://fontawesome.com/v4/icons/
 
 * Alpha Color Picker Customizer Control (c) Cristian-Ungureanu
 * License: MIT License, https://github.com/Codeinwp/customizer-controls/blob/master/LICENSE
