@@ -229,7 +229,7 @@ function pressbook_welcome_notice() {
 	if ( is_admin() && isset( $_GET['activated'] ) && ( 'themes.php' === $pagenow ) ) { // phpcs:ignore
 		?>
 		<div class="updated notice notice-success is-dismissible">
-			<h3>
+			<p>
 				<?php
 				echo wp_kses(
 					sprintf(
@@ -241,9 +241,9 @@ function pressbook_welcome_notice() {
 					array( 'a' => array( 'href' => array() ) )
 				);
 				?>
-			</h3>
+			</p>
 			<p>
-				<a class="button button-primary button-hero" href="<?php echo esc_url( admin_url( 'themes.php?page=pressbook-options' ) ); ?>">
+				<a class="button" href="<?php echo esc_url( admin_url( 'themes.php?page=pressbook-options' ) ); ?>">
 					<?php
 					printf(
 						/* translators: %s: theme name */

@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.3
 Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 2.1.9
+Stable tag: 2.2.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.2.0 =
+* Readme updated.
+* Improvement: Welcome notice.
 
 = 2.1.9 =
 * Tested compatibility with PHP 8.5.
@@ -441,6 +445,13 @@ PressBook bundles the following third-party resources:
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 * Source: WordPress Social Link Block (See wp-includes\blocks\social-link.php)
 
+* SVG UI Icons
+* License: SIL Open Font License (OFL)
+* Source: Font Awesome 4.7, https://fontawesome.com/v4/icons/
+
+* Logo in theme screenshot, Copyright ScriptsTown
+* License: GNU General Public License v2, https://www.gnu.org/licenses/gpl-2.0.html
+
 Code from Twenty Nineteen, Copyright WordPress.org
 License: GPLv2
 Source: https://wordpress.org/themes/twentynineteen/
@@ -461,10 +472,6 @@ Included as part of the following classes and functions:
 	- pressbookDomReady()
 	- pressbook.setupMainMenu.trapFocusInModal()
 	- pressbook.setupMainMenu.collapseIfEscapeKeyPress()
-
-* SVG UI Icons
-* License: SIL Open Font License (OFL)
-* Source: Font Awesome 4.7, https://fontawesome.com/v4/icons/
 
 * Alpha Color Picker Customizer Control (c) Cristian-Ungureanu
 * License: MIT License, https://github.com/Codeinwp/customizer-controls/blob/master/LICENSE
