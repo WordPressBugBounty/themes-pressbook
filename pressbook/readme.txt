@@ -3,9 +3,9 @@ Contributors: scriptstown
 Tags: blog, education, news, one-column, two-columns, three-columns, left-sidebar, right-sidebar, block-styles, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks
 Donate link: https://scriptstown.com/
 Requires at least: 5.3
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.0
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.2.1 =
+* Tested up to 7.1.
 
 = 2.2.0 =
 * Readme updated.
