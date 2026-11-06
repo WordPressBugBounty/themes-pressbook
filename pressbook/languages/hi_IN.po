@@ -2,10 +2,10 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: PressBook 2.3.0\n"
+"Project-Id-Version: PressBook 2.3.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pressbook\n"
-"POT-Creation-Date: 2026-10-16T14:06:03+00:00\n"
-"PO-Revision-Date: 2026-10-16 19:36+0530\n"
+"POT-Creation-Date: 2026-11-05T17:25:26+00:00\n"
+"PO-Revision-Date: 2026-11-05 23:00+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hi_IN\n"
