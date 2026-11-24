@@ -5,7 +5,7 @@ Donate link: https://scriptstown.com/
 Requires at least: 5.3
 Tested up to: 7.2
 Requires PHP: 7.0
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,7 @@ The menus can be found in 'Appearance > Menus'. First, create the menu and then 
 
 == Copyright ==
 
+PressBook WordPress Theme, Copyright 2026 ScriptsTown
 PressBook is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -54,6 +55,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 2.3.2 =
+* Readme updated.
 
 = 2.3.1 =
 * Tested up to 7.2.
